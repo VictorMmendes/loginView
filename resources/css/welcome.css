@@ -2,7 +2,16 @@ body {
 	text-align: center;
 	overflow: hidden;
 	display: block;
+	height: 
 	grid-template-columns: 30% 70%;
+}
+
+html,body,.container-fluid {
+    height:100%;
+}
+
+.window {
+	height: 100%;
 }
 
 nav.menu-left {
@@ -41,4 +50,9 @@ nav.main-card {
 
 div.main-row {
 	display: inline-block;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
 }
