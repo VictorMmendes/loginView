@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	overflow: hidden;
+	display: block;
+	grid-template-columns: 30% 70%;
+}
+
+nav.menu-left {
+	background-color: #EBEBEB;
+	height: 100%;
+	grid-template-columns: 100%;
+	display: inline-block;	
+}
+
+div.form {
+	padding: 5%;
+}
+
+nav.small-card
+{
+	padding: 15px;
+	color: #48E54F;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+nav.small-card::hover {
+	cursor: pointer;
+}
+
+nav.row {
+	width: 105%;
+	background-color: #000000;
+	font-weight: 500;
+}
+
+nav.main-card {
+	padding: 30px;
+	color: white;
+	background-color: #48E54F;
+}
+
+div.main-row {
+	display: inline-block;
+}

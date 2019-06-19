@@ -8,7 +8,7 @@ div.container-fluid div.row div.col-sm-12
 }
 
 div.card {
-	margin-top: 37%;
+	margin-top: 50%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -20,7 +20,35 @@ div.input-group {
 }
 
 span.correct-margin {
-  height: 38px;
-  width: 40px;
-  margin-top: -1px;
+	height: 38px;
+	width: 40px;
+	margin-top: -1px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer nav {
+	width: 100%;
+	text-align: center;
+	color: #525252;
+}
+
+h6.danger {
+	font-weight: normal;
+	color: #F11818;
+}
+
+@media (max-width: 768px) {
+	div.card {
+		margin: 15%;
+		margin-top: 25%;
+	}
 }
