@@ -1,0 +1,26 @@
+body {
+	background-color: #EBEBEB;
+}
+
+div.container-fluid div.row div.col-sm-12
+{
+	text-align: center;
+}
+
+div.card {
+	margin-top: 37%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+div.input-group {
+	padding: 10px;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+span.correct-margin {
+  height: 38px;
+  width: 40px;
+  margin-top: -1px;
+}
