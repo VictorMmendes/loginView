@@ -1,8 +1,8 @@
 body {
 	text-align: center;
-	overflow: hidden;
 	display: block;
-	height: 
+	height: 100%;
+	overflow: hidden;
 	grid-template-columns: 30% 70%;
 }
 
@@ -15,44 +15,61 @@ html,body,.container-fluid {
 }
 
 nav.menu-left {
-	background-color: #EBEBEB;
+	background-color: #f8f9fa;
 	height: 100%;
 	grid-template-columns: 100%;
-	display: inline-block;	
+	display: inline-block;
 }
 
 div.form {
-	padding: 5%;
+	padding-top: 1%;
+	padding-left: 3%;
 }
 
 nav.small-card
 {
 	padding: 15px;
-	color: #48E54F;
-	border-bottom: 1px solid #f1f1f1;
-}
-
-nav.small-card::hover {
+	color: #96e2e9;
+	border-bottom: 1px solid rgba(241, 241, 241,0.5);
 	cursor: pointer;
 }
 
+nav.small-card:hover {
+	opacity: 0.8;
+}
+
 nav.row {
-	width: 105%;
-	background-color: #000000;
+	width: 108%;
+	background-color: #404040;
 	font-weight: 500;
 }
 
 nav.main-card {
 	padding: 30px;
 	color: white;
-	background-color: #48E54F;
+	background-color: #48A1E5;
+	font-weight: 600;
 }
 
 div.main-row {
 	display: inline-block;
 }
 
-.row .no-float {
-  display: table-cell;
-  float: none;
+div.form h4 {
+	margin-bottom: 20px;
+}
+
+.btn-outline-secondary {
+	margin-right: -2px;
+	border-right: none;
+}
+
+.btn-outline-success {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.btn-outline-secondary:hover {
+	border: 1px solid #ced4da;
+	border-right: none;
 }

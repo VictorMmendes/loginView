@@ -1,5 +1,13 @@
+html,body,.container-fluid {
+    height:100%;
+}
+
 body {
 	background-color: #EBEBEB;
+}
+
+.window {
+	height: 100%;
 }
 
 div.container-fluid div.row div.col-sm-12
@@ -8,7 +16,7 @@ div.container-fluid div.row div.col-sm-12
 }
 
 div.card {
-	margin-top: 50%;
+	margin-top: 15vh;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -27,6 +35,7 @@ span.correct-margin {
 
 footer {
 	position: absolute;
+	margin-top: 100px;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
@@ -41,6 +50,12 @@ footer nav {
 	color: #525252;
 }
 
+footer nav p {
+	font-weight: 510;
+	margin: 4px;
+	color: rgba(0,0,0,.8);
+}
+
 h6.danger {
 	font-weight: normal;
 	color: #F11818;
@@ -48,7 +63,7 @@ h6.danger {
 
 @media (max-width: 768px) {
 	div.card {
-		margin: 15%;
-		margin-top: 25%;
+		margin: 10%;
+		margin-top: 15vh;
 	}
 }
